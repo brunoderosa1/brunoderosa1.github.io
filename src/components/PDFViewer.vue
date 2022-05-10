@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <hr>
-    <iframe class="reader" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" frameborder="0"></iframe>
+    <iframe class="reader" src="https://www.soundczech.cz/temp/lorem-ipsum.pdf" frameborder="0"></iframe>
 </div>
 </template>
 

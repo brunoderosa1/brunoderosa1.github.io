@@ -32,6 +32,7 @@ export default {
 .cage {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .title {
   font-family: Helvetica, sans-serif;
@@ -46,12 +47,17 @@ export default {
   text-align: center;
 }
 .btn1 {
-  color: rgb(221, 44, 44);
-  align-items: center ;
+  width: 300px;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .btn1:hover {
   color:turquoise;
-  animation: loop 1s infinite;
+  animation: loop 3s infinite;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.btn2 {
+  width: 300px;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 @keyframes loop {
